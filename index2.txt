@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+</head>
+<body style="font-family: Arial; background-color: #f2f2f2; margin: 0; padding: 0;">
+  <h1 style="text-align: center; background-color: #4CAF50; color: white; padding: 20px;">
+    Welcome to Healthy Lifestyle
+  </h1>
+  <div style="width: 90%; margin: auto; display: flex; justify-content: space-around; margin-top: 50px;">
+    <div style="background-color: white; width: 25%; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px gray;">
+      <h2 style="color: #4CAF50;">
+        <a href="index1.html" style="color: #4CAF50; text-decoration: none;">Healthy Meals</a>
+      </h2>
+      <p>Discover healthy recipes and nutrition tips to maintain a balanced diet.</p>
+    </div>
+    <div style="background-color: white; width: 25%; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px gray;">
+      <h2 style="color: #4CAF50;">
+        <a href="sport.html" style="color: #4CAF50; text-decoration: none;">Sports</a>
+      </h2>
+      <p>Explore physical activities and sports to stay active and fit every day.</p>
+    </div>
+
+    <div style="background-color: white; width: 25%; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px gray;">
+      <h2 style="color: #4CAF50;">
+        <a href="app.html" style="color: #4CAF50; text-decoration: none;">Applications</a>
+      </h2>
+      <p>Find useful health and fitness apps to support your daily routine.</p>
+    </div>
+  </div>
+  
+<button onclick="window.location.href='feedback.html'"
+  style="
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #66bb6a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  ">
+  Go to Feedback Page
+</button>
+</body>
+</html>

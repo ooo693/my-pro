@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Breakfast</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4a7c3a;
+      color: white;
+      padding: 15px;
+      text-align: left;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      text-align: left;
+    }
+
+    .breakfast-section {
+      margin: 50px auto;
+      width: 90%;
+      max-width: 800px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+    }
+
+    .breakfast-section img {
+      width: 50%;
+      border-radius: 8px;
+    }
+
+    .breakfast-content {
+      padding: 20px;
+      width: 50%;
+      text-align: left;
+    }
+
+    .breakfast-title {
+      font-size: 40px;
+      font-weight: 300;
+      color: #4CAF50;
+    }
+
+    .go-back {
+      display: block;
+      margin-top: 20px;
+      padding: 10px;
+      text-align: center;
+      background-color: #4a7c3a;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HEALTHY LIFESTYLE</h1>
+    <p class="subtitle">Together for a healthy life</p>
+  </header>
+
+  <div class="breakfast-section">
+    <img src="https://i.postimg.cc/YqVWbX7M/IMG-0986.webp" alt="Cheese Toast with Veggies">
+    <div class="breakfast-content">
+      <h3 class="breakfast-title">Breakfast</h3>
+      <h3>White Cheese Toast with Veggies</h3>
+
+      <div class="ingredients">
+        <h4>Ingredients:</h4>
+        <ul>
+          <li>2 slices of whole wheat toast</li>
+          <li>2 tablespoons low-fat white cheese (like feta or soft halloumi)</li>
+          <li>1/2 tomato, sliced</li>
+          <li>Sliced cucumber</li>
+          <li>Lettuce or arugula leaves</li>
+          <li>A sprinkle of thyme or oregano (optional)</li>
+          <li>Light drizzle of olive oil (optional)</li>
+        </ul>
+      </div>
+
+      <div class="instructions">
+        <h4>Instructions:</h4>
+        <ol>
+          <li>Lightly toast the bread until warm and crisp.</li>
+          <li>Spread the cheese on one slice of toast.</li>
+          <li>Add tomato slices, cucumber, and lettuce leaves.</li>
+          <li>Sprinkle thyme or oregano and drizzle olive oil if desired.</li>
+          <li>Top with the second slice of toast, press gently, and serve immediately.</li>
+        </ol>
+      </div>
+
+      <div class="instructions">
+        <h4>Serving suggestion:</h4>
+        <p>Serve with a cup of yogurt or warm mint tea for a satisfying and balanced breakfast.</p>
+      </div>
+
+      <a href="index1.html">
+        <button style="background-color: #4a7c3a; color: white; font-size: 15px; padding: 15px;">Go Back</button>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

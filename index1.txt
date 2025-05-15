@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Healthy Lifestyle</title>
+</head>
+<body>
+<script>
+  alert("WELCOME TO OUR WEBSITE")
+</script>
+
+  <div style="color: green; padding: 40px 20px 0; display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <img src="https://i.postimg.cc/ydycBs32/IMG-1030.jpg" alt="healthy food" style="height: 180px; width: 180px; border-radius: 90px; margin-bottom: 20px;">
+    <h1 style="font-size: 48px; margin: 0;">HEALTHY<br>LIFESTYLE</h1>
+    <p style="color: orange; font-size: 22px; margin-top: 15px;">together for a healthy life</p>
+  </div>
+
+  <div style="display: flex; justify-content: center; align-items: center; padding: 40px 0;">
+    <form action="all.html" method="get" style="background-color: #FEE1C0; padding: 40px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 400px;">
+      <label style="font-size: 18px;">name:</label><br>
+      <input type="text" name="name" style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc;"><br>
+
+      <label style="font-size: 18px;">age:</label><br>
+      <input type="number" name="age" style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc;"><br>
+
+      <label style="font-size: 18px;">weight:</label><br>
+      <input type="number" name="weight" style="width: 100%; padding: 12px; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc;"><br>
+
+      <label style="font-size: 18px;">Length:</label><br>
+      <input type="number" name="height" style="width: 100%; padding:12px; margin-bottom: 25px; border-radius: 10px; border: 1px solid #ccc;"><br>
+
+      <button type="submit" style="width: 100%; padding: 10px; background-color: green; color: white; border-radius: 25px; font-size: 16px;">Send</button>
+    </form>
+  </div>
+
+</body>
+</html>

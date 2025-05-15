@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Healthy Meals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4a7c3a;
+      color: white;
+      padding: 15px;
+      text-align: left;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      text-align: left;
+    }
+
+    p.subtitle {
+      margin: 5px 0 15px;
+      font-size: 16px;
+      color: #e0e0e0;
+      text-align: left;
+    }
+
+    .meal-section {
+      margin: 50px auto;
+      width: 90%;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 60px;
+      font-weight: 300;
+      color: #8B4513;
+      margin-bottom: 20px;
+    }
+
+    .meal-section img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .meal-buttons {
+      margin-top: 20px;
+    }
+
+    .meal-buttons a {
+      display: block;
+      text-decoration: none;
+      margin: 10px 0;
+    }
+
+    .meal-buttons button {
+      width: 100%;
+      padding: 15px;
+      font-size: 18px;
+      background-color: #fff;
+      border: 2px solid #4a7c3a;
+      color: #4a7c3a;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .meal-buttons button:hover {
+      background-color: #4a7c3a;
+      color: #fff;
+    }
+
+    .back-button {
+      margin: 40px auto;
+      width: 90%;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .back-button a {
+      text-decoration: none;
+    }
+
+    .back-button button {
+      padding: 12px 30px;
+      font-size: 18px;
+      background-color: #ccc;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .back-button button:hover {
+      background-color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HEALTHY LIFESTYLE</h1>
+    <p class="subtitle">Together for a healthy life</p>
+  </header>
+
+  <div class="meal-section">
+    <h2 class="section-title">Healthy Meals</h2>
+    <img src="https://i.postimg.cc/QNST28Q8/IMG-0962.jpg" alt="Healthy Meal">
+    
+    <div class="meal-buttons">
+      <a href="breakfast.html">
+        <button>Breakfast</button>
+      </a>
+
+      <a href="Lunch.html">
+        <button>Lunch</button>
+      </a>
+
+      <a href="Dinner.html">
+        <button>Dinner</button>
+      </a>
+
+      <a href="Snack.html">
+        <button>Snack</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="back-button">
+    <a href="all.html">
+      <button>Go Back</button>
+    </a>
+  </div>
+
+</body>
+</html>
