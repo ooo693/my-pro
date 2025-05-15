@@ -1,0 +1,17 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $rating = htmlspecialchars($_POST["rating"]);
+    $comment = htmlspecialchars($_POST["comment"]);
+
+    echo "<h2>Thank you for your feedback!</h2>";
+    echo "<p>Your rating: <strong>$rating</strong></p>";
+    
+    if (!empty($comment)) {
+        echo "<p>Your comment: " . nl2br($comment) . "</p>";
+    } else {
+        echo "<p>No additional comments provided.</p>";
+    }
+} else {
+    echo "<p>Please submit the form first.</p>";
+}
+?>

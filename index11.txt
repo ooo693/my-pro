@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Healthy Snacks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4a7c3a;
+      color: white;
+      padding: 15px;
+      text-align: left;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      text-align: left;
+    }
+
+    .snack-section {
+      margin: 50px auto;
+      width: 90%;
+      max-width: 800px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+    }
+
+    .snack-section img {
+      width: 50%;
+      border-radius: 8px;
+    }
+
+    .snack-content {
+      padding: 20px;
+      width: 50%;
+      text-align: left;
+    }
+
+    .snack-title {
+      font-size: 40px;
+      font-weight: 300;
+      color: #4CAF50;
+    }
+
+    .go-back {
+      display: block;
+      margin-top: 20px;
+      padding: 10px;
+      text-align: center;
+      background-color: #4a7c3a;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .snack-list {
+      margin-top: 20px;
+    }
+
+    .snack-list ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .snack-list li {
+      padding: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HEALTHY LIFESTYLE</h1>
+    <p class="subtitle">Together for a healthy life</p>
+  </header>
+
+  <div class="snack-section">
+    <img src="https://i.postimg.cc/c4vHQYGW/IMG-1015.jpg" alt="Healthy Snacks">
+    <div class="snack-content">
+      <h3 class="snack-title">Healthy Snacks</h3>
+      <div class="snack-list">
+        <h4>Here are 20 healthy snack options with their calorie counts:</h4>
+        <ul>
+          <li>1. Apple slices with almond butter - 150 calories</li>
+          <li>2. Greek yogurt with honey and walnuts - 180 calories</li>
+          <li>3. Carrot sticks with hummus - 100 calories</li>
+          <li>4. Cucumber slices with tzatziki - 80 calories</li>
+          <li>5. Handful of almonds - 160 calories</li>
+          <li>6. Cottage cheese with berries - 120 calories</li>
+          <li>7. Hard-boiled egg - 70 calories</li>
+          <li>8. Mixed berries - 80 calories</li>
+          <li>9. Banana with peanut butter - 180 calories</li>
+          <li>10. Rice cakes with avocado - 150 calories</li>
+          <li>11. Sliced pear with cheese - 160 calories</li>
+          <li>12. Cherry tomatoes with mozzarella - 90 calories</li>
+          <li>13. A handful of mixed nuts - 200 calories</li>
+          <li>14. Chia pudding with coconut milk - 160 calories</li>
+          <li>15. Sliced cucumber with guacamole - 130 calories</li>
+          <li>16. Smoothie with spinach, banana, and almond milk - 120 calories</li>
+          <li>17. Oatmeal with cinnamon and berries - 150 calories</li>
+          <li>18. Dark chocolate (2 squares) - 100 calories</li>
+          <li>19. Roasted chickpeas - 120 calories</li>
+          <li>20. Sliced bell peppers with hummus - 90 calories</li>
+        </ul>
+      </div>
+      <a href="index1.html">
+        <button class="go-back">Go Back</button>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

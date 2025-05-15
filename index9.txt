@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lunch</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4a7c3a;
+      color: white;
+      padding: 15px;
+      text-align: left;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      text-align: left;
+    }
+
+    .lunch-section {
+      margin: 50px auto;
+      width: 90%;
+      max-width: 800px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+    }
+
+    .lunch-section img {
+      width: 50%;
+      border-radius: 8px;
+    }
+
+    .lunch-content {
+      padding: 20px;
+      width: 50%;
+      text-align: left;
+    }
+
+    .lunch-title {
+      font-size: 40px;
+      font-weight: 300;
+      color: #4CAF50;
+    }
+
+    .go-back {
+      display: block;
+      margin-top: 20px;
+      padding: 10px;
+      text-align: center;
+      background-color: #4a7c3a;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HEALTHY LIFESTYLE</h1>
+    <p class="subtitle">Together for a healthy life</p>
+  </header>
+
+  <div class="lunch-section">
+    <img src="https://i.postimg.cc/vZbcPCjR/IMG-0988.jpg" alt="Chicken Chickpea Salad">
+    <div class="lunch-content">
+      <h3 class="lunch-title">Lunch</h3>
+      <h3>Grilled Chicken Chickpea Salad</h3>
+
+      <div class="ingredients">
+        <h4>Ingredients:</h4>
+        <ul>
+          <li>Grilled chicken breast, sliced</li>
+          <li>1 cup cooked chickpeas</li>
+          <li>Chopped cucumber</li>
+          <li>Cherry tomatoes or chopped regular tomatoes</li>
+          <li>Fresh lettuce or spinach leaves</li>
+          <li>Juice of half a lemon</li>
+          <li>1 tablespoon olive oil</li>
+          <li>Salt and black pepper to taste</li>
+          <li>A pinch of cumin (optional)</li>
+        </ul>
+      </div>
+
+      <div class="instructions">
+        <h4>Instructions:</h4>
+        <ol>
+          <li>In a large bowl, combine the chickpeas, cucumber, tomatoes, and greens.</li>
+          <li>Add the grilled chicken slices on top.</li>
+          <li>In a small bowl, mix the lemon juice, olive oil, salt, pepper, and cumin (if using).</li>
+          <li>Pour the dressing over the salad and toss gently.</li>
+          <li>Serve immediately as a healthy and satisfying lunch.</li>
+        </ol>
+      </div>
+
+      <div class="instructions">
+        <h4>Serving suggestion:</h4>
+        <p>Pair with a glass of cold water infused with lemon and mint for a refreshing touch.</p>
+      </div>
+
+      <a href="Lunch.html2">
+        <button style="background-color: #4a7c3a; color: white; font-size: 15px; padding: 15px;">Other</button>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

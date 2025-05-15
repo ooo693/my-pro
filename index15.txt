@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+margin: 50px auto;
+width: 500px;
+text-align: center;
+}
+
+img {
+width: 500px;
+border-radius: 10px;
+}
+
+h2{
+color: #4a7c3a;
+font-weight: 300;
+margin-bottom: 20px;
+font-size: 40px;
+text-align: center;
+}
+button {
+width: 300px;
+margin: 10px;
+padding: 15px;
+font-size: 18px;
+background-color: white;
+border: 2px solid #4a7c3a;
+color: #4a7c3a; 
+border-radius: 8px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #4a7c3a;
+color: white;
+}
+
+</style>
+
+<body>
+<div>
+<h2>Stretching Training</h2>
+<img src="https://i.pinimg.com/736x/48/24/ff/4824ffd795f1eb7ca4126f2f99189f9f.jpg"/>
+<a href="sport.html"> 
+<button>Go Back</button></a>
+</div>
+</body>

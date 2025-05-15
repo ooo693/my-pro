@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Health tracking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Cairo', sans-serif;
+            direction: rtl;
+            background-color: white; 
+            color: #0f3d1e;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 300; 
+            margin-bottom: 4px;
+        }
+
+        h2 {
+            color: #0f3d1e;
+            margin-top: 30px;
+            font-size: 24px;
+        }
+
+        h4 {
+            margin-top: 0; 
+            font-weight: 300;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            width: 150px;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+
+        .header {
+            background-color: #2e8b57;
+            padding: 0.5px;
+            color: white;
+            border-radius: 20px; 
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .back-button {
+            margin-top: 40px;
+        }
+
+        .back-button a button {
+            padding: 10px 30px;
+            font-size: 18px;
+            background-color: #ccc;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .back-button a button:hover {
+            background-color: #999;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>HEALTHY LIFESTYLE</h1>
+        <h4>Smart Health Guide</h4>
+    </div>
+
+    <hr>
+
+    <h2>Calorie Counter App</h2>
+    <a href="https://apps.apple.com/sa/app/calorie-counter-mynetdiary/id287529757?l=ar" target="_blank">
+        <img src="https://i.ibb.co/rG21f5SW/434x0w-1.webp" alt="Calorie Counter">
+    </a>
+
+    <h2> Step Counter App </h2>
+    <a href="https://apps.apple.com/us/app/pedometer-%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%A7%D8%AA/id1436021886" target="_blank">
+        <img src="https://i.ibb.co/hS4FqZz/434x0w.webp" alt="Step Counter">
+    </a>
+
+    <h2>Water Reminder App </h2>
+    <a href="https://play.google.com/store/apps/details?id=com.northpark.drinkwater" target="_blank">
+        <img src="https://i.ibb.co/GvjVD6rx/unnamed-1.webp" alt="Water Reminder">
+    </a>
+
+    <div class="back-button">
+        <a href="all.html">
+            <button>Go Back</button>
+        </a>
+    </div>
+
+</body>
+</html>

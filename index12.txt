@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sports</title>
+<style>
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:  #4a7c3a;
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+}
+
+div {
+  margin: 50px auto;
+  width: 500px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #8B4513;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+button {
+  display: block;
+  width: 500px;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 18px;
+  background-color: white;
+  border: 2px solid #4a7c3a;
+  color: #4a7c3a;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4a7c3a;
+  color: white;
+}
+
+.back {
+  margin-top: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>HEALTHY LIFESTYLE</h1>
+  <p>Together for a healthy life</p>
+</header>
+
+<div>
+  <h2>Sports</h2>
+  <img src="https://www.creb.com/-/media/Public/CREBNow/Article_images/Mar_2023/Spring_activities.png"/>
+  
+  <div>
+    <a href="sport2.html"><button>Cardio</button></a>
+    <a href="sport3.html"><button>Resistance Training</button></a>
+    <a href="sport4.html"><button>Stretching Training</button></a>
+  </div>
+
+  <div class="back">
+    <a href="all.html"><button>Go Back</button></a>
+<h2 style="color: #2c3e50; font-family: Arial, sans-serif; text-align: center;">Time Management for Exercise</h2>
+
+<table style="width: 80%; margin: 0 auto; border-collapse: collapse; background-color: #fff; font-family: Arial, sans-serif; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #2ecc71; color: white;">
+      <th style="border: 1px solid ; padding: 12px;">Day</th>
+      <th style="border: 1px solid ; padding: 12px;">Suggested Time</th>
+      <th style="border: 1px solid ; padding: 12px;">Type of Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f2f2f2;">
+      <td style="border: 1px solid ; padding: 12px;">Sunday</td>
+      <td style="border: 1px solid ; padding: 12px;">5:00 PM</td>
+      <td style="border: 1px solid ; padding: 12px;">Brisk Walking</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid ; padding: 12px;">Monday</td>
+      <td style="border: 1px solid ; padding: 12px;">6:00 AM</td>
+      <td style="border: 1px solid ; padding: 12px;">Stretching</td>
+    </tr>
+    <tr style="background-color: #f2f2f2;">
+      <td style="border: 1px solid ; padding: 12px;">Tuesday</td>
+      <td style="border: 1px solid ; padding: 12px;">7:00 PM</td>
+      <td style="border: 1px solid ; padding: 12px;">Yoga</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid ; padding: 12px;">Wednesday</td>
+      <td style="border: 1px solid ; padding: 12px;">5:30 PM</td>
+      <td style="border: 1px solid ; padding: 12px;">Cardio Workout</td>
+    </tr>
+    <tr style="background-color: #f2f2f2;">
+      <td style="border: 1px solid ; padding: 12px;">Thursday</td>
+      <td style="border: 1px solid ; padding: 12px;">6:00 AM</td>
+      <td style="border: 1px solid ; padding: 12px;">Bodyweight Exercises</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid ; padding: 12px;">Friday</td>
+      <td style="border: 1px solid ; padding: 12px;">Rest Day</td>
+      <td style="border: 1px solid ; padding: 12px;">nothing</td>
+    </tr>
+    <tr style="background-color: #f2f2f2;">
+      <td style="border: 1px solid ; padding: 12px;">Saturday</td>
+      <td style="border: 1px solid ; padding: 12px;">5:00 PM</td>
+      <td style="border: 1px solid ; padding: 12px;">Jogging</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+
+</body>
+</html>

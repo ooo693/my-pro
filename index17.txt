@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <title>Website Feedback</title>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0fff0; color: #2e7d32; padding: 40px; display: flex; justify-content: center;">
+  <form action="feedback.php" method="post" style="background-color: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); width: 100%; max-width: 500px;">
+    <h2 style="text-align: center; color: #388e3c; margin-bottom: 20px;">Quick Feedback About Our Website</h2>
+    <label for="rating" style="font-weight: bold; display: block; margin: 15px 0 5px;">How would you rate your experience?</label>
+    <select name="rating" id="rating" required
+      style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #c8e6c9; font-size: 16px; box-sizing: border-box;">
+      <option value="">-- Please choose --</option>
+      <option value="Very satisfied">Very satisfied</option>
+      <option value="Satisfied">Satisfied</option>
+      <option value="Neutral">Neutral</option>
+      <option value="Dissatisfied">Dissatisfied</option>
+      <option value="Very dissatisfied">Very dissatisfied</option>
+    </select>
+    <label for="comment" style="font-weight: bold; display: block; margin: 15px 0 5px;">Any comments or suggestions?</label>
+    <textarea name="comment" id="comment" rows="4" placeholder="Write here..."
+      style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #c8e6c9; font-size: 16px; box-sizing: border-box;"></textarea>
+
+    <input type="submit" value="Submit"
+      style="width: 100%; background-color: #66bb6a; color: white; font-weight: bold; border: none; border-radius: 8px; padding: 10px; font-size: 16px; cursor: pointer; margin-top: 20px;">
+  </form>
+
+</body>
+</html>

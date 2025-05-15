@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dinner</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4a7c3a;
+      color: white;
+      padding: 15px;
+      text-align: left;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      text-align: left;
+    }
+
+    .dinner-section {
+      margin: 50px auto;
+      width: 90%;
+      max-width: 800px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+    }
+
+    .dinner-section img {
+      width: 50%;
+      border-radius: 8px;
+    }
+
+    .dinner-content {
+      padding: 20px;
+      width: 50%;
+      text-align: left;
+    }
+
+    .dinner-title {
+      font-size: 40px;
+      font-weight: 300;
+      color: #4CAF50;
+    }
+
+    .go-back {
+      display: block;
+      margin-top: 20px;
+      padding: 10px;
+      text-align: center;
+      background-color: #4a7c3a;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HEALTHY LIFESTYLE</h1>
+    <p class="subtitle">Together for a healthy life</p>
+  </header>
+
+  <div class="dinner-section">
+    <img src="https://i.postimg.cc/sxMHbyGW/IMG-1006.jpg" alt="Labneh Sandwich">
+    <div class="dinner-content">
+      <h3 class="dinner-title">Dinner</h3>
+      <h3>Labneh Sandwich with Vegetables</h3>
+
+      <div class="ingredients">
+        <h4>Ingredients:</h4>
+        <ul>
+          <li>2 slices of whole wheat bread</li>
+          <li>2 tablespoons low-fat labneh</li>
+          <li>Cucumber slices</li>
+          <li>Tomato slices</li>
+          <li>Fresh lettuce leaves</li>
+          <li>A pinch of zaatar or sumac (optional)</li>
+        </ul>
+      </div>
+
+      <div class="instructions">
+        <h4>Instructions:</h4>
+        <ol>
+          <li>Spread labneh on one slice of bread.</li>
+          <li>Add cucumber, tomato, and lettuce.</li>
+          <li>Sprinkle a bit of zaatar or sumac if desired.</li>
+          <li>Top with the second slice of bread and serve fresh.</li>
+        </ol>
+      </div>
+
+      <div class="instructions">
+        <h4>Serving Suggestion:</h4>
+        <p>Serve with a cup of low-fat yogurt or green tea for a light and healthy dinner.</p>
+      </div>
+
+      <a href="Dinner.html2">
+        <button style="background-color: #4a7c3a; color: white; font-size: 15px; padding: 15px;">Other</button>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
